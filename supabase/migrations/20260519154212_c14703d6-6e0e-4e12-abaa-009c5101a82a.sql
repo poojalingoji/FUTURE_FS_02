@@ -1,0 +1,1 @@
+CREATE POLICY "Authenticated update notes" ON public.notes FOR UPDATE TO authenticated USING (true);
